@@ -23,58 +23,64 @@
                 </ul>
             </header>
             <main id="content">
-                <h1>About</h1>
-                <p>I recently graduated from the University of California, Berkeley with an undergraduate degree in astrophysics.  I am enthusiastic about making new ideas come to life, and have experience in software development, often creating new and novel utilities for use with desktop flight simulators.  When not tinkering with software, I like to take pictures, fly airplanes, and occasionally write.</p>
-                <h1>Projects</h1>
-                <section class="item">
-                    <h2><a href="https://github.com/ollyau/SimBridge">SimBridge</a></h2>
-                    <p>Created a proof of concept to connect Amazon Echo devices to Microsoft Flight Simulator X, enabling users to control the simulator hands-free by using voice commands. This project uses a combination of C# on the desktop, an MQTT server, and an AWS Lambda function written in Python.</p>
+                <section>
+                    <h2>About</h2>
+                    <p>I recently graduated from the University of California, Berkeley with an undergraduate degree in astrophysics.  I am enthusiastic about making new ideas come to life, and have experience in software development, often creating new and novel utilities for use with desktop flight simulators.  When not tinkering with software, I like to take pictures, fly airplanes, and occasionally write.</p>
                 </section>
-                <section class="item">
-                    <h2><a href="https://github.com/ollyau/SimParticipate">SimParticipate</a></h2>
-                    <p>Created a utility that allows audience members viewing a Twitch stream of Microsoft Flight Simulator X to interact with and control the simulator. This enables new possibilities in user interaction, such as the ability for the viewers to remotely fail aspects of the aircraft, or cooperatively perform tasks such as tuning the radio.</p>
+                <section>
+                    <h2>Projects</h2>
+                    <section class="item">
+                        <h3><a href="https://github.com/ollyau/SimBridge">SimBridge</a></h3>
+                        <p>Created a proof of concept to connect Amazon Echo devices to Microsoft Flight Simulator X, enabling users to control the simulator hands-free by using voice commands. This project uses a combination of C# on the desktop, an MQTT server, and an AWS Lambda function written in Python.</p>
+                    </section>
+                    <section class="item">
+                        <h3><a href="https://github.com/ollyau/SimParticipate">SimParticipate</a></h3>
+                        <p>Created a utility that allows audience members viewing a Twitch stream of Microsoft Flight Simulator X to interact with and control the simulator. This enables new possibilities in user interaction, such as the ability for the viewers to remotely fail aspects of the aircraft, or cooperatively perform tasks such as tuning the radio.</p>
+                    </section>
+                    <section class="item">
+                        <h3>FSX Blue Angels Hornet Flight Control System</h3>
+                        <p>Designed a simulated ﬂy-by-wire ﬂight control system in C++ in collaboration with a virtual aerobatics team to add new functionality to a third party addon aircraft for Microsoft Flight Simulator X.  This enhances the flight handling characteristics, allowing users to control the simulated aircraft in a manner more consistent with the real aircraft.</p>
+                    </section>
+                    <section class="item">
+                        <h3><a href="https://github.com/ollyau/EFBConnect">EFB Connect</a></h3>
+                        <p>Created an open source utility to share simulated position, attitude, and traffic information from Microsoft Flight Simulator X with electronic flight bag (EFB) apps such as ForeFlight over local area networks.  This uses the SimConnect API to interface with the simulator and implements the <a href="https://www.foreflight.com/support/network-gps/">ForeFlight Network GPS protocol</a> to communicate with EFB apps.</p>
+                    </section>
+                    <section class="item">
+                        <h3><a href="https://github.com/StevenFrost/AviationWeather">Aviation Weather</a></h3>
+                        <div class="subtitle">(in collaboration with <a href="https://www.linkedin.com/in/stevenfrost/">Steven Frost</a>)</div>
+                        <p>Collaborated on creating an open source, modern C++ library to parse coded aviation weather data structures. Project involved utilizing C++11 functionality, regular expressions to parse METAR strings, and Git for version control.  Created both unit and integration tests (based on meteorological reference material) to validate parser correctness.</p>
+                    </section>
+                    <section class="item">
+                        <h3><a href="https://github.com/ollyau/FSActiveFires">FS Active Fires</a></h3>
+                        <p>Created a utility that utilizes publicly available, near real-time remote sensing data acquired from the MODIS instrument aboard the Terra and Aqua satellites to visualize active fires in Microsoft Flight Simulator X.  The utility was nominated for a community website's yearly freeware award as best freeware tool of 2014.</p>
+                    </section>
+                    <!-- <div class="subtitle"><a href="#">View additional projects.</a></div> -->
                 </section>
-                <section class="item">
-                    <h2>FSX Blue Angels Hornet Flight Control System</h2>
-                    <p>Designed a simulated ﬂy-by-wire ﬂight control system in C++ in collaboration with a virtual aerobatics team to add new functionality to a third party addon aircraft for Microsoft Flight Simulator X.  This enhances the flight handling characteristics, allowing users to control the simulated aircraft in a manner more consistent with the real aircraft.</p>
+                <section>
+                    <h2>Writing</h2>
+                    <section class="item">
+                        <h3><a href="writing/Urban_Agriculture_in_Cities_of_Tomorrow.pdf">Urban Agriculture in Cities of Tomorrow</a></h3>
+                        <div class="subtitle">UC Berkeley, Urban Garden Ecosystems (ESPM 117), Summer 2018</div>
+                        <p>A paper highlighting the origins of Walt Disney's original plans for EPCOT (as the Experimental Prototype Community of Tomorrow) and its intersection with urban agriculture, with a look at how the spirit of futurism and agriculture lives on in today's Epcot as part of the Living with the Land attraction.</p>
+                    </section>
+                    <section class="item">
+                        <h3><a href="writing/Mosaic.pdf">Mosaic</a></h3>
+                        <div class="subtitle">Berkeley City College, Scriptwriting and Storyboarding (MMART 110), Spring 2017</div>
+                        <p>A treatment, script, and shot list for a three minute screenplay where an apathetic teenager gets transported to an over-the-top world of fiction where he's forced to take action.
+                        </p>
+                    </section>
+                    <section class="item">
+                        <h3><a href="writing/The_Word_Count.pdf">The Word Count</a></h3>
+                        <div class="subtitle">Berkeley City College, Creative Writing (English 10A), Fall 2016</div>
+                        <p>A short, single scene play set in a fictious NaNoWriMo police department, featuring a confrontation between a hardened detective and a flippant participant over a falsified word count.</p>
+                    </section>
+                    <section class="item">
+                        <h3><a href="writing/Of_Gods_and_Time_Lords.pdf">Of Gods and Time Lords</a></h3>
+                        <div class="subtitle">Berkeley City College, Composition and Reading (English 1B), Spring 2015</div>
+                        <p>A literary analysis comparing the titular gods from Marie Phillips's <cite class="italics">Gods Behaving Badly</cite> to the character of the Doctor from the BBC television series <cite class="italics">Doctor Who</cite>.</p>
+                    </section>
+                    <!-- <div class="subtitle"><a href="#">View additional writing samples.</a></div> -->
                 </section>
-                <section class="item">
-                    <h2><a href="https://github.com/ollyau/EFBConnect">EFB Connect</a></h2>
-                    <p>Created an open source utility to share simulated position, attitude, and traffic information from Microsoft Flight Simulator X with electronic flight bag (EFB) apps such as ForeFlight over local area networks.  This uses the SimConnect API to interface with the simulator and implements the <a href="https://www.foreflight.com/support/network-gps/">ForeFlight Network GPS protocol</a> to communicate with EFB apps.</p>
-                </section>
-                <section class="item">
-                    <h2><a href="https://github.com/StevenFrost/AviationWeather">Aviation Weather</a></h2>
-                    <div class="subtitle">(in collaboration with <a href="https://www.linkedin.com/in/stevenfrost/">Steven Frost</a>)</div>
-                    <p>Collaborated on creating an open source, modern C++ library to parse coded aviation weather data structures. Project involved utilizing C++11 functionality, regular expressions to parse METAR strings, and Git for version control.  Created both unit and integration tests (based on meteorological reference material) to validate parser correctness.</p>
-                </section>
-                <section class="item">
-                    <h2><a href="https://github.com/ollyau/FSActiveFires">FS Active Fires</a></h2>
-                    <p>Created a utility that utilizes publicly available, near real-time remote sensing data acquired from the MODIS instrument aboard the Terra and Aqua satellites to visualize active fires in Microsoft Flight Simulator X.  The utility was nominated for a community website's yearly freeware award as best freeware tool in 2014.</p>
-                </section>
-                <!-- <div class="subtitle"><a href="#">View additional projects.</a></div> -->
-                <h1>Writing</h1>
-                <section class="item">
-                    <h2><a href="writing/Urban_Agriculture_in_Cities_of_Tomorrow.pdf">Urban Agriculture in Cities of Tomorrow</a></h2>
-                    <div class="subtitle">UC Berkeley, Urban Garden Ecosystems (ESPM 117), Summer 2018</div>
-                    <p>A paper highlighting the origins of Walt Disney's original plans for EPCOT (as the Experimental Prototype Community of Tomorrow) and its intersection with urban agriculture, with a look at how the spirit of futurism and agriculture lives on in today's Epcot as part of the Living with the Land attraction.</p>
-                </section>
-                <section class="item">
-                    <h2><a href="writing/Mosaic.pdf">Mosaic</a></h2>
-                    <div class="subtitle">Berkeley City College, Scriptwriting and Storyboarding (MMART 110), Spring 2017</div>
-                    <p>A treatment, script, and shot list for a three minute screenplay where an apathetic teenager gets transported to an over-the-top world of fiction where he's forced to take action.
-                    </p>
-                </section>
-                <section class="item">
-                    <h2><a href="writing/The_Word_Count.pdf">The Word Count</a></h2>
-                    <div class="subtitle">Berkeley City College, Creative Writing (English 10A), Fall 2016</div>
-                    <p>A short, single scene play set in a fictious NaNoWriMo police department, featuring a confrontation between a hardened detective and a flippant participant over a falsified word count.</p>
-                </section>
-                <section class="item">
-                    <h2><a href="writing/Of_Gods_and_Time_Lords.pdf">Of Gods and Time Lords</a></h2>
-                    <div class="subtitle">Berkeley City College, Composition and Reading (English 1B), Spring 2015</div>
-                    <p>A literary analysis comparing the titular gods from Marie Phillips's <cite class="italics">Gods Behaving Badly</cite> to the character of the Doctor from the BBC television series <cite class="italics">Doctor Who</cite>.</p>
-                </section>
-                <!-- <div class="subtitle"><a href="#">View additional writing samples.</a></div> -->
             </main>
         </div>
     </div>
